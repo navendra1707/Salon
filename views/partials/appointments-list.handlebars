@@ -1,0 +1,13 @@
+<ul class="appointment-customer-history">
+    <div class="appointment-title">Your Appointments</div>
+    <div class="each-appointment-history">
+    {{#each user.appointments as | appt |}}
+        <li class="appointment-customer-li">
+            <p data-appt-id={{appt.id}}>{{appt.date}} at {{getFormattedTimeslot appt.time_slot}}</p>
+            <button class="appt-delete-btn">delete</button>
+            <button class="appt-edit-btn">edit</button>
+        </li>
+    {{/each}}
+    </div>
+</ul>
+<script src="/javascript/appointments-list.js"></script>  

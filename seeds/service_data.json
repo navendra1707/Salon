@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Basic Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing,  cuticle softener, massage using lotion, ending with hot towel and color of your choice.",
+        "price": 16,
+        "time_frame": 30,
+        "image_link": "/images/basic-manicure.jpg"
+    },
+    {
+        "name": "Spa Manicure",
+        "description": "This manicure includes everything from the Spa Manicure with an additional Paraffin Treatment leaving your hands soft.",
+        "price": 23,
+        "time_frame": 30,
+        "image_link": "/images/spa-manicure.png"
+    },
+    {
+        "name": "Allure Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing, cuticle softener with Sugar Scrub for exfoliation, Paraffin Treatment, Hot Towel wraps and color of your choice.",
+        "price": 30,
+        "time_frame": 45,
+        "image_link": "/images/allure-manicure.jpg"
+    },
+    {
+        "name": "Gel Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing, cuticle softener. Massage using lotion by Hot Towel, and Gel Color.",
+        "price": 35,
+        "time_frame": 45,
+        "image_link": "/images/gel-manicure.jpg"
+    },
+    {
+        "name": "Basic Pedicure",
+        "description": "This pedicure includes nail trimming, cleaning of dead skin on the heels using softener and lotion foot massage. Ending with hot towel and polish of your choice.",
+        "price": 29,
+        "time_frame": 30, 
+        "image_link": "/images/basic-pedicure.png"
+    },
+    {
+        "name": "Spa Pedicure",
+        "description": "This pedicure includes nail trimming, cleaning of the dead heel skin, Honey Sugar Scrub Exfoliation, and a Special Foot Massage Treatment, Hot Towel wraps and polish of your choice.",
+        "price": 39,
+        "time_frame": 45,
+        "image_link": "/images/spa-pedicure.jpg"
+    },
+    {
+        "name": "Allure Pedicure",
+        "description": "This Pedicure includes nail trimming, cleaning dead heel skin. Your choice of skincare routine. Ending with Hot Towel wraps and polish of your choice.",
+        "price": 49,
+        "time_frame": 45,
+        "image_link": "/images/allure-pedicure.jpg"
+    },
+    {
+        "name": "Super Deluxe Pedicure",
+        "description": "This Pedicure includes nail trimming, cleaning of dead heel skin with 6 steps skincare, Hot Stones Foot Massage Treatment, Hot Towel, Paraffin Treatment and polish of your choice.",
+        "price": 59,
+        "time_frame": 60, 
+        "image_link": "/images/super-deluxe-pedicure.jpg"
+    },
+    {
+        "name": "Kid Manicure",
+        "description": "This manicure is for kids under 10 including nail trimming, shaping, buffing, cuticle grooming using cuticle softener, and color of your choice with a simple design.",
+        "price": 10,
+        "time_frame": 15, 
+        "image_link": "/images/kid-manicure.jpg"
+    },
+    {
+        "name": "Kid Pedicure",
+        "description": "This pedicure is for kids under 10 with a simple design.",
+        "price": 20,
+        "time_frame": 30, 
+        "image_link": "/images/kid-pedicure.jpg"
+    },
+    {
+        "name": "SNS Nails",
+        "description": "A dipping powder process, which is natural and healthy for your nails using no liquid primer and UV light, helps your nails to keep its strength and healthy.",
+        "price": 45,
+        "time_frame": 60, 
+        "image_link": "/images/sns-nails.jpg"
+    },
+    {
+        "name": "Acrylic Nails with Gel Color",
+        "description": "An option for those who do not have strong nails. A thin acrylic layer is applied giving your nails a long and natural looking appearance.",
+        "price": 50,
+        "time_frame": 60, 
+        "image_link": "/images/acrylic-nails.jpg"
+    }
+]

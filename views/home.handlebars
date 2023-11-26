@@ -1,0 +1,28 @@
+<div class="header-main">
+    <a class="main-logo">
+        <img src="images/logo.png">
+    </a>
+    <div class="">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+    </div>
+    <h1 class="review-header-main">"The best appointment booking application ever" - Forbes</h1>
+</div>
+<hr>
+<div class="services-homepage">
+    <h1 class="services-title">Services</h1>
+    <ul class="flex-container flex-row">
+        {{#each services as |service| }}
+        <a class="each-service" href="/api/services/{{service.id}}">
+            <img class="each-service-image" src={{service.image_link}}>
+            <div class="each-service-description">
+                {{service.description}}
+            </div>
+            <span class="each-service-name">{{service.name}}</span>
+        </a>
+        {{/each}}
+    </ul>
+</div>

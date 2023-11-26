@@ -1,0 +1,39 @@
+<!-- Registration-->
+<div class="header-main">
+    <a class="main-logo">
+        <img src="images/logo.png">
+    </a>
+</div>
+<div class="flex-container flex-row authentication-container">
+  
+  <aside class="authentication-column" >
+    <h1 class="authentication-title">LOGIN</h1>
+    <div class="authentication-form">
+      <div class="authentication-input">
+        <label>Phone</label>
+        <input id="authentication-login-phone" type="text" placeholder="(xxx) xxx-xxxx" required>
+      </div>
+      <div class="authentication-input">
+        <label>Password</label>
+        <input id="authentication-login-password" type="password" required>
+      </div>
+      <div class="authentication-input">
+        <button id="authentication-login-submit">Login</button>
+      </div>
+      <span>No accounts yet? Please sign-up.</span>
+    </div>
+  </aside>
+  {{> signup-aside}}
+</div>
+<div class="header-main">
+    <div class="">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+        <img class="star-header-main" src="/images/star.png" alt="star">
+    </div>
+    <h1 class="review-header-main">"The best appointment booking application ever" - Forbes</h1>
+</div>
+
+<script src="/javascript/login.js"></script>

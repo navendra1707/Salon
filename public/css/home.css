@@ -1,0 +1,143 @@
+body {
+  min-width: 600px;
+}
+
+main {
+    background-color: #A5D9D0;
+    min-height: 100vh;
+}
+
+header {
+  position: relative;
+  background-color: #02443A;
+  height: 75px;
+}
+
+header nav {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+header nav .nav-btn {
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  color: black;
+  background-color: #f7be94;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: black;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin: 0 10px;
+}
+
+header nav .nav-btn:hover {
+  background-color: #e2bb9e;
+}
+
+.header-main {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-main .main-logo img{
+  width: 400px;
+  height: 270px;
+}
+
+.header-main .star-header-main {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.header-main .review-header-main {
+  font-size: 20px;
+  font-family: 'Urbanist', sans-serif;
+  margin-top: 10px;
+}
+
+.services-homepage {
+  margin: 0 40px;
+}
+
+.services-homepage .services-title {
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.each-service {
+  position: relative;
+  margin: 30px 30px;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.each-service .each-service-image {
+  border-radius: 17px;
+  border: black;
+  border-width: 0.5px;
+  border-style: solid;
+  filter: drop-shadow(0px 0px 5px #7e7e81);
+  height: 250px;
+  width: 250px;
+}
+
+.each-service .each-service-description {
+  position: absolute;
+  border-radius: 17px;
+  border: black;
+  border-width: 0.5px;
+  border-style: solid;
+  filter: drop-shadow(0px 0px 5px #7e7e81);
+  top: 0;
+  left: 0;
+  height: 210px;
+  width: 210px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F7BE94;
+  padding: 20px 20px;
+
+  size: 15px;
+  color: #02443A;
+  line-height: 20px;
+  text-align: center;
+}
+
+.each-service:hover .each-service-description {
+  opacity: 0.8;
+}
+
+.each-service .each-service-name {
+  font-size: 20px;
+  font-family: 'Urbanist', sans-serif;
+  color: black;
+}

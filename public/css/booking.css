@@ -1,0 +1,141 @@
+.appointment-booking, .appointment-customer-history, .appointment-calendar {
+    width: 75%;
+    margin: 0 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#customer-name-div {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000;
+    padding: 20px auto;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    margin-top: 10px;
+}
+
+.appointment-title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #02443A;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #f7be94;
+}
+
+.appointment-booking-form, .each-appointment-history {
+    background-color: #96ceb4;
+    padding: 10px 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1E252B;
+    padding: 10px;
+}
+
+.appointment-booking-form label {
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.date-input, .time-input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    font-size: 15px;
+    width: 30%;
+    
+    border: none;
+    border-radius: 3px;
+}
+
+.serv-input, .tech-input  {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    font-size: 15px;
+    width: 30%;
+
+    border: none;
+    border-radius: 3px;
+}
+
+#serv-tech-add-more-btn, .check-available-btn {
+    cursor: pointer;
+    color: black; 
+    font-size: 15px;
+    background-color: #f7be94;
+    font-family: 'Bebas Neue', cursive;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1E252B;
+  }
+
+.appt-submit-div, .appt-update-div {
+    text-align: right;
+}
+
+#appt-submit-btn, #appt-update-btn {
+    cursor: pointer;
+  
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: black;
+    background-color: #f7be94;
+  
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: black;
+  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    margin-top: 5px;
+}
+
+.appointment-customer-li {
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+    margin: 10px 80px;
+    border-bottom: 1px;
+    border-style: dashed;
+}
+
+.appointment-customer-li p {
+    display: inline;
+}
+
+.appointment-customer-li button {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    color: black; 
+    font-size: 15px;
+    background-color: #f7be94;
+    font-family: 'Bebas Neue', cursive;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1E252B;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1000px) {  
+    .appointment-booking {
+      width: 35%;
+      margin-bottom: 20px;
+    }
+    .appointment-customer-history, .appointment-calendar  {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+  }

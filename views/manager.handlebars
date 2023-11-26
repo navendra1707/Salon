@@ -1,0 +1,26 @@
+<div class="header-main">
+    <a class="main-logo">
+        <img src="images/logo.png">
+    </a>
+</div>
+<hr>
+<div class="customer-search-div">
+    <label>Phone:</label>
+    <input type="text" style="height: 35px;" id="phone-input" placeholder="123-456-7890">
+    <button type="submit" id="customer-search-btn">Search</button>
+    <div id="customer-name-div" style="display: none">
+    </div>
+</div>
+<div class="flex-container flex-row text-center">
+    {{> booking-system}}
+    <div class="appointment-calendar">
+        <div class="appointment-title">Calendar</div>
+        <div id='calendar'></div>
+    </div>
+</div>
+<script src="/javascript/manager.js"></script>
+
+<script src="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js"></script>
+<script src="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js"></script>
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>

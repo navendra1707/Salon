@@ -1,0 +1,24 @@
+<div class="appointment-booking">
+    <div class="appointment-title" >To Book Appointment</div>
+    <div class="appointment-booking-form">
+        <div>
+            <label>Date:</label>
+            <input class="date-input" type="date" id="appt-day-input">
+            <select class="time-input" id="appt-timeslot-select">
+                <option value="">Pick a time</option>
+            </select>
+        </div>
+        <div>
+            <label>Pick A Service, a Technician and check Availability:</label>
+            <div id="service-tech-div"></div>
+            <button id="serv-tech-add-more-btn">Add services</button>
+        </div>
+        <div class="appt-update-div">
+            <button id="appt-update-btn" style="display: none">Update Appointment</button>
+        </div>
+        <div class="appt-submit-div">
+            <button id="appt-submit-btn">Book Appointment</button>
+        </div>
+    </div>
+</div>
+<script src="/javascript/booking-system.js"></script>  

@@ -1,0 +1,11 @@
+<div class="header-main">
+    <a class="main-logo">
+        <img src="images/logo.png">
+    </a>
+</div>
+<div id="customer-name-div" data-user-id={{user.id}}>{{user.first_name}} {{user.last_name}}</div>
+<hr>
+<div class="flex-container flex-row">
+    {{> booking-system}}
+    {{> appointments-list}}
+</div>
